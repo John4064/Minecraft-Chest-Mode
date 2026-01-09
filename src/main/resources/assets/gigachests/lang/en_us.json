@@ -1,13 +1,12 @@
 {
-  "itemGroup.gigachests": "Example Mod Tab",
-  "block.gigachests.example_block": "Example Block",
-  "item.gigachests.example_item": "Example Item",
+  "itemGroup.gigachests": "GIGA TAB",
 
-  "gigachests.configuration.title": "Giga Chests Configs",
-  "gigachests.configuration.section.gigachests.common.toml": "Giga Chests Configs",
-  "gigachests.configuration.section.gigachests.common.toml.title": "Giga Chests Configs",
-  "gigachests.configuration.items": "Item List",
-  "gigachests.configuration.logDirtBlock": "Log Dirt Block",
-  "gigachests.configuration.magicNumberIntroduction": "Magic Number Text",
-  "gigachests.configuration.magicNumber": "Magic Number"
+  "item.gigachests.upgrade_rock": "Upgrade Rock",
+
+  "block.gigachests.omega_chest": "Omega Chest",
+
+
+  "creativetab.gigachest.giga_items": "Giga Items",
+  "creativetab.gigachest.giga_blocks": "Giga Blocks"
+
 }
