@@ -11,6 +11,7 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ChestMenu;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
 
@@ -19,7 +20,7 @@ public class SimpleChestBlockEntity extends BlockEntity implements MenuProvider 
     private final NonNullList<ItemStack> items = NonNullList.withSize(27, ItemStack.EMPTY);
 
     public SimpleChestBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntities.SIMPLE_CHEST.get(), pos, state);
+        super(BlockEntityType.CHEST, pos, state);
     }
 
     @Override
